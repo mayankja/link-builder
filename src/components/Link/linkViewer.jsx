@@ -35,7 +35,7 @@ const LinkViewer = ({ linksData = [], onLinkClick, isLoading }) => {
                           ? localStorage.getItem('bg')
                           : '#fff',
                         color: localStorage.getItem('color')
-                          ? localStorage.getItem('c#212529')
+                          ? localStorage.getItem('color')
                           : '#212529',
                       }}
                     >
