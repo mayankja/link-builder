@@ -161,7 +161,7 @@ const Links = (props) => {
 
   /*
 -------------------------------------------
-	Function to manage cart modal open/close
+	Function to manage add/edit modal open/close
 -------------------------------------------
 */
   const onModalHandleChange = async () => {
@@ -179,7 +179,7 @@ const Links = (props) => {
 
   /*
 -----------------------------------------------------
-	Function to manage color design  modal open/close
+	Function to manage color design modal open/close
 ------------------------------------------------------
 */
   const onColorModalToggle = () => SetColorModalShow(!colorModalShow);
